@@ -4,7 +4,7 @@ const listCategoria = async () => (await fetch('https://alurageek-api.vercel.app
 
 //POST
 const crearClientes = (nombre, email) => {
-    return fetch("https://alurageek-api.vercel.app/seccion", {
+    return fetch("https://alurageek-api-tau.vercel.app/seccion", {
        method: "POST",
        headers: {
          "Content-Type": "application/json"
@@ -16,14 +16,14 @@ const crearClientes = (nombre, email) => {
  
  //DELETE
  const eliminarClientes = (id) => {
-   return fetch(`https://alurageek-api.vercel.app/seccion/${id}`, {
+   return fetch(`https://alurageek-api-tau.vercel.app/seccion/${id}`, {
      method: "DELETE",
    });
  }
 
 
 //UPDATE
-const getID = async (id) => (await fetch(`https://alurageek-api.vercel.app/seccion/${id}`)).json();
+const getID = async (id) => (await fetch(`https://alurageek-api-tau.vercel.app/seccion/${id}`)).json();
 
 
 export const servicios = {
