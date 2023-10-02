@@ -1,6 +1,6 @@
 //GET
 //const listCategoria = async () => (await fetch('http://localhost:3000/seccion')).json();
-const listCategoria = async () => (await fetch('https://alurageek-api.vercel.app/seccion')).json();
+const listCategoria = async () => (await fetch('https://alurageek-api-tau.vercel.app/seccion')).json();
 
 //POST
 const crearClientes = (nombre, email) => {
