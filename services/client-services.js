@@ -1,10 +1,10 @@
 //GET
-const listCategoria = async () => (await fetch('http://localhost:3000/seccion')).json();
-
+//const listCategoria = async () => (await fetch('http://localhost:3000/seccion')).json();
+const listCategoria = async () => (await fetch('https://alurageek-api.vercel.app/seccion')).json();
 
 //POST
 const crearClientes = (nombre, email) => {
-    return fetch("http://localhost:3000/perfil", {
+    return fetch("https://alurageek-api.vercel.app/seccion", {
        method: "POST",
        headers: {
          "Content-Type": "application/json"
@@ -16,14 +16,14 @@ const crearClientes = (nombre, email) => {
  
  //DELETE
  const eliminarClientes = (id) => {
-   return fetch(`http://localhost:3000/perfil/${id}`, {
+   return fetch(`https://alurageek-api.vercel.app/seccion/${id}`, {
      method: "DELETE",
    });
  }
 
 
 //UPDATE
-const getID = async (id) => (await fetch(`http://localhost:3000/seccion/${id}`)).json();
+const getID = async (id) => (await fetch(`https://alurageek-api.vercel.app/seccion/${id}`)).json();
 
 
 export const servicios = {
