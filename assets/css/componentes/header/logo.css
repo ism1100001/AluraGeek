@@ -1,0 +1,21 @@
+.header-logo{
+  width: 100%;
+}
+  .header-logo--all{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+.header-logo__a{
+  width: auto;
+}
+
+.header-logo__img{
+  max-width: 8rem;
+}
+
+@media (min-width: 550px) {
+  .header-logo{
+    width: 50%;
+  }
+}

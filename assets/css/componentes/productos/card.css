@@ -1,0 +1,130 @@
+.container__cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    padding: 1rem 1.5rem 2rem 0.5rem;
+    gap: 1.5rem;
+    overflow: hidden;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+
+    .container__cards-grid{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, 16rem);
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: start;
+    width: 15.62rem;
+    height: 28rem;
+    transition-duration: 150ms;
+    transition: box-shadow quick;
+}
+    .card:hover{
+        box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.35); 
+    }
+
+.card-image{
+    width: 100%;
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+
+}
+
+.container-header-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.admin-options{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: end;
+    padding: 1rem;
+    box-sizing: border-box;
+    gap: .6rem;
+}
+
+.admin-options a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem;
+    background-color: white;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.admin-options a:hover{
+    background-color: rgb(240, 240, 240);
+}
+    .admin-option__editar span{
+        color: #ffaa00;
+    }
+    .admin-option__borrar span{
+        color: #ff0000;
+    }
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    padding: 0.5rem 1rem 2rem 1rem;
+    background-color: #F6F6F6;
+    gap: .8em;
+    box-sizing: border-box;
+}
+
+.card-body__title{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 14rem;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body__atitle{
+    color: blue;
+}
+    .card-body__atitle:hover{
+        color: #E73700;
+    }
+
+.card-body__price{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.card-body__discount span{
+    display: inline;
+    text-decoration:line-through;
+}
+
+.card-body__cant{
+    font-size: 12px;
+}

@@ -1,0 +1,245 @@
+.admin-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: #E3E6E6;
+    box-sizing: border-box;
+}
+
+.admin-title{
+    padding: .5rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.admin-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    padding: 1rem .8rem 1rem .8rem;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    .admin-btn:hover{
+        background-color: rgb(31, 31, 31);
+    }
+
+.admin-categoria{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.admin-categoria__add{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.admin-categoria-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: 1.2rem;
+    box-sizing: border-box;
+}
+
+.admin-categoria__input{
+    max-width: calc(100%/2);
+    min-width: 70%;
+    height: 3.5rem;
+    padding: 0rem 1.5rem 0rem 0.5rem;
+    color: black;
+    background-color: white;
+    border: 1.5px solid #ffffff;
+    border-radius: 2px 0px 0px 0px;
+    box-shadow: 0px 1px 0.5px 0px #C8C8C8;
+    outline: none;
+    box-sizing: border-box;
+}
+    .admin-categoria__input:hover, .admin-categoria__input:focus {
+        border-color: #6c6c6c;
+    }
+
+.admin-categoria__table{
+    width: 100%;
+    background-color: #ECECEC;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+
+.table-title{
+    padding: .5rem 0rem;
+    text-align: left;
+}
+
+.tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding: .2rem;
+    background-color: rgb(239, 239, 239);
+    border: 1.5px solid #d2d2d2;
+    border-radius:2px;
+    box-sizing:border-box;
+}
+    .tr:hover{
+        border-color: #959595;
+    }
+
+.td-input-content{
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.td-input{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90%;
+    padding: .4rem 0rem .4rem .4rem;
+    text-align: left;
+    color: black;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.td-btn-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    width: 30%;
+}
+
+.td-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    padding: .5rem 0rem;
+    background-color:#d1d1d1;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+    .td-btn-update--active{
+        background-color: rgb(225, 146, 0);
+        color: white;
+        cursor: pointer;
+    }
+        .td-btn-update--active:hover{
+            background-color: rgb(183, 119, 0);
+        }
+    .td-btn-delete{
+        background-color: rgb(196, 7, 7);
+        color: white;
+        cursor: pointer;
+    }
+        .td-btn-delete:hover{
+            background-color: rgb(129, 0, 0);
+        }
+
+.table__button-control{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 5px;
+    width: auto;
+}
+
+.admin-productos{
+    width: 100%;
+}
+
+.productos-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.productos-form__titulo{
+    margin-bottom: .5rem;
+}
+
+.productos-form__input{
+    margin-bottom: .5rem;
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    color: black;
+    border: 1px solid #adadad;
+    border-radius: 5px 5px 0px 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+    .productos-form__input:hover, .productos-form__input:focus{
+        border-color: #6c6c6c;
+    }
+
+.productos-form__select{
+    margin-bottom: .5rem;
+    width: 100%;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    background-color: #d2d2d2;
+    border: 1px solid #adadad;
+    border-radius: 5px 5px 0px 0px;
+    cursor: pointer;
+}
+    .productos-form__select:hover{
+        background-color: #a7a7a7;
+        border-color: #868686;
+    }
+
+@media only screen and (min-width: 400px) {
+    .td-btn-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 744px) {
+    .admin-container{
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        padding: 1.25rem 2rem 1.25rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .admin-container{
+        padding: 1.25rem 3.125rem 1.25rem 3.125rem;
+    }
+}

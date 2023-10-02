@@ -1,0 +1,37 @@
+.header-sesion{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+    .header-sesion--hide{
+        display: none;
+    }
+
+
+.header-sesion__abutton{
+    display: flex;
+    justify-content: center;
+    width: 3rem;
+    padding: 10px;
+    background-color: none;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: border-width 0.6s linear;
+}
+
+    .header-sesion__abutton:hover{
+        border: 1px solid rgb(209, 209, 209);
+        color: #E73700;
+    }
+
+@media (min-width: 550px) {
+    .header-sesion{
+        width: 40%;
+        justify-content: end;
+    }
+ }

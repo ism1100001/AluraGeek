@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>io71</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;700&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="/assets/css/base/_reset.css" />
+    <link rel="stylesheet" href="/assets/css/base/base.css"/>
+    <link rel="stylesheet" href="/assets/css/componentes/iconos/icon.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/header/header.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/header/buscar.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/header/logo.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/header/sesion.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/main.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/productos/container.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/productos/head.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/productoinfo/producto.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/productos/container.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/productos/card.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/productos/head.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/footer.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+          <a href="/index.html" class="header-logo__a">
+            <img
+              src="../assets/img/logo.svg"
+              class="header-logo__img"
+              alt="io74 logo"
+            />
+          </a>
+        </div>
+  
+        <div class="header-search">
+          <div class="header-form">
+            <form action="" class="form-search">
+              <label class="form-search__label--hide" for="form-search__input"
+                >Ingresa el nombre de algún producto</label
+              >
+              <input
+                class="form-search__input"
+                type="search"
+                value=""
+                placeholder="Buscar producto"
+                aria-label="Buscar producto"
+                maxlength="120"
+                aria-autocomplete="inline"
+                autocapitalize="none"
+              />
+              <button class="form-search__button" type="submit">
+                <span class="material-symbols-outlined"> search </span>
+              </button>
+            </form>
+          </div>
+  
+          <button class="icon xj94kfr9fklk320fk" id="btnmenu">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+          <!-- up search-->
+          <div class="header-search__search--hide" id="hs">
+            <div class="header-search__button">
+              <button class="icon" id="xmenu">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 -960 960 960"
+                  width="24"
+                >
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <form action="" id="xd3kdodm" class="form-search">
+              <label class="form-search__label--hide" for="form-search__input"
+                >Ingresa el nombre de algún producto</label
+              >
+              <input
+                class="form-search__input"
+                type="text"
+                value=""
+                placeholder="Buscar producto"
+                aria-label="Buscar producto"
+                maxlength="120"
+                aria-autocomplete="inline"
+                autocapitalize="none"
+              />
+              <button class="form-search__button" type="submit">
+                <span class="material-symbols-outlined"> search </span>
+              </button>
+            </form>
+          </div>
+        </div>
+  
+        <div class="header-sesion">
+          <a class="header-sesion__abutton" href="../screens/ingresar.html"
+            >Sign In</a
+          >
+        </div>
+    </header>
+
+    <main class="main">
+      <section class="producto">
+      </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-firts">
+          <div class="footer-links">
+            <p class="footer-links__title">Quick Links</p>
+            <ul class="footer-links__list">
+              <li class="footer-links__item">Quienes somos</li>
+              <li class="footer-links__item">Política de privacidad</li>
+              <li class="footer-links__item">Programa de fidelidad</li>
+              <li class="footer-links__item">Nuestras Tiendas</li>
+              <li class="footer-links__item">Anúncie sus productos aquí</li>
+            </ul>
+          </div>
+          <form class="footer-form" id="footer-form" action="#">
+            <fieldset class="footer-form__field">
+              <legend>Contáctanos</legend>
+              <label for="footer-form--name">Nombre</label>
+              <input class="footer-form__input" type="text" id="footer-form--name" name="name" placeholder="Nombre y Apellidos" autocomplete="off" required>
+              <label for="footer-form--email">Email</label>
+              <input class="footer-form__input" type="email" id="footer-form--email" placeholder="example@hotmail.com">
+              <label for="footer-form--textarea">Mensaje</label>
+              <textarea class="footer-form__input footer-form__textarea" id="footer-form--mensaje" name="message" value=""></textarea>
+              <button class="footer-form__btn" type="submit" value="Enviar">Enviar</button>
+            </fieldset>
+          </form>
+        </section>
+        <section class="rodapie">
+          <p>Desarrollado por Iván Salazar Mendoza</p>
+          <p>© 2579 Io71 LLC</p>
+        </section>
+      </footer>
+  
+ <script src="/assets/js/header.js"></script>
+ <script src="/assets/js/footer.js"></script>
+ <script type="module" src="/controllers/producto-controller.js"></script>
+</body>
+</html>

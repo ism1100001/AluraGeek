@@ -1,0 +1,118 @@
+.header-search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    max-width: 570px;
+    box-sizing: border-box;
+}
+
+    .header-search--hide{
+        display: none;
+    }
+
+.header-form{
+    display: none;
+}
+
+.header-search__search, .header-search__search--admin{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0rem 1rem 0rem 1rem;
+    background-color: white;
+    box-sizing: border-box;
+}
+    .header-search__search--hide, .header-search__search--admin--hide{
+        display: none;
+    }
+
+.form-search{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-search__label--hide {
+    display: none;
+  }
+
+.form-search__input, .form-search__input--admin{
+    width: 100%;
+    height: 2.5rem;
+    padding: 0rem 1.5rem 0rem 0.5rem;
+    color: black;
+    border: 2px solid #69009A;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+    .form-search__input:focus{
+        border: 2px solid #4f0073;
+    }
+
+    .header-search__button{
+        width: 20%;
+    }
+
+.form-search__input--admin{
+    border: 2px solid #000000;
+    background-color: #F5F5F5;
+}
+
+.form-search__button, .form-search__button--admin{
+    position: relative; 
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 2.5rem;
+    color: white;
+    background: #69009A;
+    border: 2px solid #69009A;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+    .form-search__button:hover{
+        background-color: #4f0073;
+    }
+
+.form-search__button--admin{
+    background: #000000;
+    border: 2px solid #000000;
+}
+
+    @media (min-width: 550px) {
+        #btnmenu, #btnmenuadmin{
+            display: none;
+        }
+
+        .header-form{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .form-search{
+            width: 100%;
+        }
+        .header-search__search, .header-search__search--admin{
+            display: none;
+        }
+     }

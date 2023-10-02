@@ -1,0 +1,23 @@
+.sesion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: #E3E6E6;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 744px) {
+    .sesion{
+        padding: 2rem 2rem 2rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .sesion{
+        padding: 2rem 3.125rem 2rem 3.125rem;
+    } 
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>io71</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;700&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/assets/css/base/_reset.css" />
+    <link rel="stylesheet" href="/assets/css/base/base.css"/>
+    <link rel="stylesheet" href="/assets/css/componentes/iconos/icon.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/header/header.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/header/buscar.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/header/logo.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/header/sesion.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/main.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/itemadmin/itemadmin.css" />
+    <link rel="stylesheet" href="/assets/css/componentes/footer.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+          <a href="/index.html" class="header-logo__a">
+            <img
+              src="../assets/img/logo.svg"
+              class="header-logo__img"
+              alt="io74 logo"
+            />
+          </a>
+        </div>
+  
+        <div class="header-search">
+          <div class="header-form">
+            <form action="" class="form-search">
+              <label class="form-search__label--hide" for="form-search__input"
+                >Ingresa el nombre de algún producto</label>
+              <input
+                class="form-search__input--admin"
+                type="search"
+                value=""
+                placeholder="Buscar"
+                aria-label="Buscar"
+                maxlength="120"
+                aria-autocomplete="inline"
+                autocapitalize="none"
+              />
+              <button class="form-search__button--admin" type="submit">
+                <span class="material-symbols-outlined"> search </span>
+              </button>
+            </form>
+          </div>
+  
+          <button class="icon xj94kfr9fklk320fk" id="btnmenuadmin">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+          <!-- up search-->
+          <div class="header-search__search--admin--hide" id="hd">
+            <div class="header-search__button">
+              <button class="icon" id="xmenuadmin">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 -960 960 960"
+                  width="24"
+                >
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <form action="" id="xd3kdodm" class="form-search">
+              <label class="form-search__label--hide" for="form-search__input--admin">Ingresa el nombre de algún producto</label>
+              <input
+                class="form-search__input--admin"
+                type="text"
+                value=""
+                placeholder="Buscar producto"
+                aria-label="Buscar producto"
+                maxlength="120"
+                aria-autocomplete="inline"
+                autocapitalize="none"
+              />
+              <button class="form-search__button--admin" type="submit">
+                <span class="material-symbols-outlined"> search </span>
+              </button>
+            </form>
+          </div>
+        </div>
+  
+        <div class="header-sesion">
+          <a class="header-sesion__abutton--admin" href="/screens/administracion.html">Administrador</a>
+        </div>
+    </header>
+
+    <main class="main">
+
+     <section class="admin-container">
+        <div class="admin-categoria">
+            <p class="admin-title">
+                Administrar Categoría
+            </p>
+            <div class="admin-categoria__add">
+                <p class="admin-categoria__add-title">
+                    Añadir Categiría
+                </p>
+                <form class="admin-categoria-form" action="#">
+                    <input class="admin-categoria__input" type="text" placeholder="Añadir categoría" required>
+                    <button type="submit" class="admin-btn">Añadir</button>
+                </form> 
+            </div>
+                <table class="admin-categoria__table">
+                  <caption class="table-title">Categorías</caption>
+                  <tbody class="tbody" data-table>
+                    </tbody>
+                </table>
+        </div>
+        <div class="admin-productos">
+            <p class="admin-title">
+                Administrar Productos
+            </p>
+            <form class="productos-form" action="" >
+                <label class="productos-form__titulo" for="titulo">Titulo del producto (*)</label>
+                <input class="productos-form__input" type="text" title="Nombre del producto" id="titulo" name="titulo" placeholder="Nombre del producto" maxlength="15" required>
+                <label class="productos-form__titulo" for="cantidad">Cantidad de unidades (*)</label>
+                <input class="productos-form__input" type="text" title="Cantidades disponibles" id="cantidad" name="cantidad" placeholder="Unidades (Ej. 20)" maxlength="3" required>
+                <label class="productos-form__titulo" for="precio">Precio del producto (*)</label>
+                <input class="productos-form__input" type="text" title="Precio real del producto" id="precio" name="precio" placeholder="Precio (Ej. 900.00)" maxlength="5" required>
+                <label class="productos-form__titulo" for="descuento">Descuento del producto (Opcional)</label>
+                <input class="productos-form__input" type="text" title="Descuento del producto" id="descuento" name="descuento" placeholder="Descuento (Ej. 20)" maxlength="5">
+
+                <label class="productos-form__titulo" for="categoria">Seleccionar categoría (*)</label>
+                <select class="productos-form__select" title="Categoría del producto" id="categoria" name="categoria">
+                    <option value="value1"selected>Seleccione una categoría</option>
+                    <option value="value2">Value 2</option>
+                    <option value="value3">Value 3</option>
+                  </select>
+                <label class="productos-form__titulo" for="descripcion">Descripción del producto (*)</label>
+                <textarea class="productos-form__input footer-form__textarea" title="descripcion" id="descripcion" name="descripcion" maxlength="20"></textarea>
+                <label class="productos-form__titulo" for="descuento">Ingrese una url para la imagen</label>
+                <input class="productos-form__input" type="text" title="Imagen del producto" id="img" name="img" placeholder="https://example.com/imagen.png">
+            </form>
+          
+        </div>
+     </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-firts">
+          <div class="footer-links">
+            <p class="footer-links__title">Quick Links</p>
+            <ul class="footer-links__list">
+              <li class="footer-links__item">Quienes somos</li>
+              <li class="footer-links__item">Política de privacidad</li>
+              <li class="footer-links__item">Programa de fidelidad</li>
+              <li class="footer-links__item">Nuestras Tiendas</li>
+              <li class="footer-links__item">Anúncie sus productos aquí</li>
+            </ul>
+          </div>
+          <form class="footer-form" id="footer-form" action="#">
+            <fieldset class="footer-form__field">
+              <legend>Contáctanos</legend>
+              <label for="footer-form--name">Nombre</label>
+              <input class="footer-form__input" type="text" id="footer-form--name" name="name" placeholder="Nombre y Apellidos" autocomplete="off" required>
+              <label for="footer-form--email">Email</label>
+              <input class="footer-form__input" type="email" id="footer-form--email" placeholder="example@hotmail.com">
+              <label for="footer-form--textarea">Mensaje</label>
+              <textarea class="footer-form__input footer-form__textarea" id="footer-form--mensaje" name="message" value=""></textarea>
+              <button class="footer-form__btn" type="submit" value="Enviar">Enviar</button>
+            </fieldset>
+          </form>
+        </section>
+        <section class="rodapie">
+          <p>Desarrollado por Iván Salazar Mendoza</p>
+          <p>© 2579 Io71 LLC</p>
+        </section>
+    </footer>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="/assets/js/header.js"></script>
+ <script src="/assets/js/footer.js"></script>
+ <script type="module" src="/controllers/categoria-controller.js"></script>
+</body>
+</html>

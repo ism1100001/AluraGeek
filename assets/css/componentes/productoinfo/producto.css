@@ -1,0 +1,107 @@
+.producto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    min-height: 10rem;
+    padding: 1rem .5rem 1rem .5rem;
+    box-sizing: border-box;
+}
+
+.producto-img{
+    width: 15rem;
+    height: 15rem;
+    background-image: url('/assets/img/productos/muestra.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 80%;
+}
+
+.producto-info{
+    width: 100%;
+}
+
+.producto-info__title{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.producto-info__precio{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem;
+    gap: .8rem;
+}
+    .producto-info__precio p:first-child{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .producto-info__precio p:nth-child(2n){
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    .producto-info__precio p:nth-child(3n){
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+.producto-info__precio-abtn{
+    display: flex;
+    justify-content: center;
+    width: 8rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: #508A05;
+    border: 1px solid #508A05;
+    border-radius: 5px;
+}
+    .producto-info__precio-abtn:hover{
+        background-color: #3e6e00;
+    }
+
+.producto-info__descripcion{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+@media only screen and (min-width: 744px) {
+    .producto{
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        padding: 3rem 2rem 0rem 2rem;
+    }
+    .producto-img{
+       /* width: 30rem;
+        height: 15rem;*/
+        max-width: 30rem;
+        max-height: 19rem;
+        min-width: 20rem;
+        min-height: 20rem;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .producto{
+        padding: 5rem 3.125rem 0rem 3.125rem;
+    }
+    .producto-img{
+        max-width: 30rem;
+        max-height: 20rem;
+        min-width: 20rem;
+        min-height: 20rem;
+        background-size: 100%;
+    }
+    .producto-info__descripcion{
+        width: 80%;
+        line-height: 1.5rem;
+    }
+}

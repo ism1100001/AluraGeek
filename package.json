@@ -1,0 +1,19 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "challenge-02 OracleONE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ism1100001/AluraGeek.git"
+  },
+  "keywords": [
+    "Alura"
+  ],
+  "author": "Ivan Salazar Mendoza",
+  "license": "ISC",
+  "homepage": "https://github.com/ism1100001/AluraGeek.git#readme"
+}

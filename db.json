@@ -1,0 +1,212 @@
+{
+    "seccion": [
+        {
+            "id": 1,
+            "seccion": "LoRaWAN",
+            "productos": [
+                {
+                    "id": 1,
+                    "seccionID": 1,
+                    "titulo": "RAKWireless Helium LoRaWAN Developer Kit",
+                    "precio": 1230.00,
+                    "descuento": 22,
+                    "unidades": 10,
+                    "descripcion": "The kit features a selection of 13 different WisBlock IO and Sensor modules to address potential applications in environmental monitoring, agricultural automation, asset tracking, etc. In addition to the Cores, Bases, and IO and Sensor modules there are also antennas provided, together with a screwdriver specifically chosen to make mounting the modules simple and straightforward.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/rak-wireless-iot-kit-rakwireless-helium-developer-kit-28776833843385_large.png?v=1619871786"
+                },
+                {
+                    "id": 2,
+                    "seccionID": 1,
+                    "titulo": "RAK2245 Pi HAT LoRaWAN module 8 Channels with Raspberry Pi form factor SX1301",
+                    "precio": 3420.00,
+                    "descuento": 10,
+                    "unidades": 4,
+                    "descripcion": "RAK2245 Pi HAT is a module with Raspberry Pi form factor which can be plugged into Raspberry Pi such as Raspberry Pi 3 Model B+ as a complete RF front end of LoRa gateway. Built-in RAK2245 is supporting eight channels and available all the variants for use in global bands, this ultra-compact module measures just 60rnm x 30mm x 14.9mm and is believed to be the world's smallest LoRaWAN gateway module include GPS module & Heat Sink.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/rak-wireless-lora-iot-rak2245-pi-hat-lora-module-with-raspberry-pi-form-factor-sx1301-6706430345303_large.png?v=1550323579"
+                },
+                {
+                    "id": 3,
+                    "seccionID": 1,
+                    "titulo": "RAK2247 LoRaWAN Gateway - Concentrator Module - AU915 - USB",
+                    "precio": 2593.00,
+                    "descuento": 25,
+                    "unidades": 15,
+                    "descripcion": "The RAK2247 is the evolution of RAK833. It retains the same small form factor (mPCIE) and is just as easy to integrate as the previous model. It, however, comes with a number of improvements. Its Maximum Tx power has been boosted in order to achieve even greater range, so your LoRaWAN network coverage is even wider.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/rak-wireless-lora-iot-rak2247-lorawan-gateway-concentrator-module-au915-usb-11954140348503_large.png?v=1563070888"
+                },
+                {
+                    "id": 4,
+                    "seccionID": 1,
+                    "titulo": "Milesight UC300 Industrial IoT Controller LoRaWAN/Cellular",
+                    "precio": 700.00,
+                    "descuento": 15,
+                    "unidades": 8,
+                    "descripcion": "UC300 is an IoT controller used for remote control and data acquisition from multiple s sensors. It contains different I/O interfaces such as analog inputs, digital inputs, relay outputs, serial ports, and more, which support remote device data transmission and control via LoRaWAN®, 3G/4G networks or SMS. Besides, UC300 supports multiple trigger conditions and actions which work autonomously even when the network drops.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/milesight-iot-ursalink-lorawan-milesight-uc300-industrial-iot-controller-lorawan-cellular-37141870969068_large.png?v=1654350710"
+                },
+                {
+                    "id": 5,
+                    "seccionID": 1,
+                    "titulo": "IAQ Kit Smart Indoor Air Quality Monitoring Solution LoRaWAN Wireless",
+                    "precio": 5049.00,
+                    "descuento": 15,
+                    "unidades": 5,
+                    "descripcion": "The IAQ Smart Indoor Air Quality Kit is a flexible, cost-effective, and expandable wireless mointoring system based on standard LoRaWAN wireless long-range low-power communication. It monitors the data of ambient air quality in real-time which helps you to live in a safer and healthier environment, especially with growing airborne diseases like COVID-19. With straightforward data directly shown on display and cloud platforms, you can always stay informed and alert before it is too late. Through reports and analysis, you can catch the problems that you probably ignore. ",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/milesight-iot-ursalink-lorawan-iaq-kit-smart-indoor-air-quality-monitoring-solution-lorawan-wireless-37627487355116_large.png?v=1661566361"
+                },
+                {
+                    "id": 6,
+                    "seccionID": 1,
+                    "titulo": "LM-513H Globalsat LoRaWAN Module Dual-mode RF Pin Header",
+                    "precio": 67554.00,
+                    "descuento": 15,
+                    "unidades": 11,
+                    "descripcion": "The GlobalSat LM-513H is a pin header type RF module that based on LoRa® technology which provides long-range, low data rate IoT connectivity to sensors, electronic meter reading, geolocation devices, industrial monitoring and control, home and building automation, long-range irrigation systems, and all kinds of IoT/ M2M equipment. ",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/globalsat-lorawan-lm-513h-globalsat-lorawan-module-dual-mode-rf-pin-header-6588089040983_large.jpg?v=1562231024"
+                },
+                {
+                    "id": 7,
+                    "seccionID": 1,
+                    "titulo": "Ursalink UC11-N1 LoRaWAN Multi Sensor Node Battery Powered",
+                    "precio": 700.00,
+                    "descuento": 15,
+                    "unidades": 15,
+                    "descripcion": "The Ursalink UC11-N1 is a fully integrated, IP67 waterproof, battery-powered LoRaWAN node with multiple communication interfaces for connecting to a wide range of external sensors.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/netvox-lorawan-ursalink-uc11-n1-lorawan-multi-sensor-node-14082102460503_large.png?v=1589888562"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seccion": "SOC-Mini PC",
+            "productos": [
+                {
+                    "id": 1,
+                    "seccionID": 2,
+                    "titulo": "Breadboard Dock for Onion Omega2 & Omega2+",
+                    "precio": 456.00,
+                    "descuento": 5,
+                    "unidades": 28,
+                    "descripcion": "Omega2 is tiny so that it can easily fit into your DIY project or commercial product. It is less than 1/4 the size of the Raspberry Pi, and less than 1/3 the size of the Arduino Uno. The Omega2 has integrated Wi-Fi and on-board flash storage. This means that it springs to life the moment you power it on. You don't have to worry about buying Wi-Fi dongles or installing operating system images onto external SD cards.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/onion-onion-omega-breadboard-dock-for-onion-omega2-omega2-25983055699_large.jpg?v=1550492194"
+                },
+                {
+                    "id": 2,
+                    "seccionID": 2,
+                    "titulo": "Servo Expansion for Onion Omega2 & Omega2+",
+                    "precio": 585.00,
+                    "descuento": 23,
+                    "unidades": 11,
+                    "descripcion": "The Omega2 has integrated Wi-Fi and on-board flash storage. This means that it springs to life the moment you power it on. You don't have to worry about buying Wi-Fi dongles or installing operating system images onto external SD cards.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/onion-onion-omega-servo-expansion-for-onion-omega2-omega2-25983140371_large.jpg?v=1550415638"
+                },
+                {
+                    "id": 3,
+                    "seccionID": 2,
+                    "titulo": "4 Port USB HUB HAT for Raspberry Pi",
+                    "precio": 632.00,
+                    "descuento": 15,
+                    "unidades": 15,
+                    "descripcion": "This is a 4 port USB hub for Raspberry Pi, provides more USB capability to your Pi, what's more, it features USB to UART converter for easy serial communication. It can work with various versions of the Pi, and the size of the board is designed to perfectly fit the Zero / Zero W.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/waveshare-raspberry-pi-4-port-usb-hub-hat-for-raspberry-pi-3694483603543_large.jpg?v=1550509418"
+                },
+                {
+                    "id": 4,
+                    "seccionID": 2,
+                    "titulo": "DFRobot Gravity: Starter Sensor Set for LattePanda",
+                    "precio": 530.00,
+                    "descuento": 1,
+                    "unidades": 9,
+                    "descripcion": "It includes everything a regular PC has and can do anything that a regular PC does. It is compatible with almost every gadget you know: printers, joysticks, cameras and more. Any peripherals that work on your PC will work on LattePanda.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/dfrobot-lattepanda-dfrobot-gravity-starter-sensor-set-for-lattepanda-26513285011_large.jpg?v=1550465255"
+                },
+                {
+                    "id": 5,
+                    "seccionID": 2,
+                    "titulo": "M32 Internet of Things Arduino Yun compatible",
+                    "precio": 0.00,
+                    "descuento": 15,
+                    "unidades": 15,
+                    "descripcion": "M32 is Arduino Yun compatible, it communicates with MS14N-S CPU via SPI and UART interface and provides the power / GPIOs via the 14 positions screw terminal on MS14N-S. M32 can be programmed by the latest Arduino IDE. The board type in Arduino IDE is Arduino Yun.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/dragino-openwrt-m32-internet-of-things-module-for-ms14n-s-2519235723351_large.jpg?v=1550484857"
+                },
+                {
+                    "id": 6,
+                    "seccionID": 2,
+                    "titulo": "micro:bit Expansion Board for Boson (Gravity Compatible)",
+                    "precio": 644.00,
+                    "descuento": 25,
+                    "unidades": 15,
+                    "descripcion": "micro:bit is a pocket-sized microcontroller designed for kids and beginners to learn coding and electronics, letting them easily bring ideas into DIY digital games, interactive projects and robotics.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/dfrobot-micro-bit-micro-bit-expansion-board-for-boson-gravity-compatible-1154552987688_large.jpg?v=1550434895"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seccion": "Robotic",
+            "productos": [
+                {
+                    "id": 1,
+                    "seccionID": 3,
+                    "titulo": "EMAX 4045 BN Prop Set-2CW And 2CCW Black Propellers",
+                    "precio": 244.00,
+                    "descuento": 7,
+                    "unidades": 12,
+                    "descripcion": "EMAX 4045 BN Propeller,4 propellers included in each set (2 CW and 2 CCW)",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/emax-propellers-emax-4045-bn-prop-set-2cw-and-2ccw-black-propellers-24581818759_large.jpg?v=1550494401"
+                },
+                {
+                    "id": 2,
+                    "seccionID": 3,
+                    "titulo": "EMAX Buzzer For Skyline32 Flight Control",
+                    "precio": 144.00,
+                    "descuento": 7,
+                    "unidades": 12,
+                    "descripcion": "Suitable for: Skyline32 flight controller Acro & Advanced version.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/emax-flight-controller-emax-buzzer-for-skyline32-flight-control-24582271815_large.jpg?v=1550459332"
+                },
+                {
+                    "id": 3,
+                    "seccionID": 3,
+                    "titulo": "EMAX Power board 30A for EMAX Simon 4in1 ESC",
+                    "precio": 742.00,
+                    "descuento": 11,
+                    "unidades": 3,
+                    "descripcion": "Replacement Part for EMAX Simon 4in1 ESC ",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/emax-esc-emax-power-board-30a-for-emax-simon-4in1-esc-22574744263_large.jpg?v=1550457951"
+                },
+                {
+                    "id": 4,
+                    "seccionID": 3,
+                    "titulo": "MDS40B 40Amp 10V-45V SmartDrive DC Motor Driver",
+                    "precio": 886.00,
+                    "descuento":10,
+                    "unidades": 12,
+                    "descripcion": "Enhanced SmartDrive40 is enhanced version of the MDS40A, it is designed to drive brushed DC motor, ranging from medium to high power motor with current capacity up to 80A peak and 40A continuously. The MOSFETs are switched at 16 KHz to ensure quiet operation and no annoying whining sound. Besides, it also equipped with a microcontroller unit to provide smart features such as multiple input modes, current limiting and thermal protection.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/cytron-motor-driver-mds40b-40amp-10v-45v-smartdrive-dc-motor-driver-37910769139948_large.jpg?v=1665277788"
+                },
+                {
+                    "id": 5,
+                    "seccionID": 3,
+                    "titulo": "DFRobot Smart Arduino Digital Servo Shield for Dynamixel AX",
+                    "precio": 731.00,
+                    "descuento": 8,
+                    "unidades": 3,
+                    "descripcion": "With this smart Arduino digital servo shield and Dynamixel AX series servos, It's quite easy for you to drive multi servos with daisy chain connection with an Arduino board such as Arduino Uno, and build your robotic dog, hexapod with powerful servos.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/dfrobot-motor-driver-dfrobot-smart-arduino-digital-servo-shield-for-dynamixel-ax-29764770707_large.jpg?v=1550487997"
+                },
+                {
+                    "id": 6,
+                    "seccionID": 3,
+                    "titulo": "Phidget Motor Control 1-Motor - 1065_0B",
+                    "precio": 1356.00,
+                    "descuento": 29,
+                    "unidades": 2,
+                    "descripcion": "Brushed DC Motors are very simple to understand, but very difficult to control precisely. By applying a voltage, or pulsing a voltage rapidly, at the terminals of the motor, current flows through the motor, and it will begin rotating. Depending on the direction of the current, the motor will rotate clockwise or counterclockwise.",
+                    "img": "https://www.iot-store.com.au/cdn/shop/products/phidgets-motor-driver-phidget-motor-control-1-motor-1065-0b-109907050515_large.jpg?v=1550433681"
+                }
+            ]
+        }
+     ]
+}

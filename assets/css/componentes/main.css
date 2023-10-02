@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0rem;
+    gap: 2rem;
+}

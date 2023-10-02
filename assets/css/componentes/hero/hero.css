@@ -1,0 +1,98 @@
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.35);
+}
+
+.hero-img{
+    height: 30rem;
+    padding-top: 5rem;
+    background-image: url("../../../img/carrusel/phone3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0rem 1rem 5rem 1rem;
+    text-align: center;
+    box-sizing: border-box;
+} 
+
+.hero-content__text--h1{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.hero-content__text--h2{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.hero-content__abtn{
+    display: inline-block;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5%;
+    box-shadow: .5px .5px .5px rgb(155, 155, 155);
+}
+.hero-content__abtn:hover{
+    background-color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+}
+
+
+@media only screen and (min-width: 549px) {
+    .hero-img{
+        height: 35rem;
+        background-image: url("../../../img/carrusel/tablet2.png");
+        padding: 0rem;
+    }
+    .hero-content__text--h1{
+        font-size: 3rem;
+    }
+    .hero-content__text--h2{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .hero-img{
+        height: 35rem;
+        background-image: url("../../../img/carrusel/desk2.png");
+        padding: 0rem;
+    }
+    .hero-content{
+        justify-content: end;
+        align-items: flex-start;
+        padding: 0rem 0rem 6rem 2rem;
+    }
+    .hero-content__text--h1{
+        font-size: 4rem;
+    }
+    .hero-content__text--h2{
+        font-size: 3rem;
+    }
+    .hero-content__abtn{
+        margin-left: 5rem;
+    }
+}

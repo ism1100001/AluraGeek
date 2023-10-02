@@ -1,0 +1,91 @@
+.sesion-form{    
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    box-shadow: 1px 1px 1px 1px #d5d5d5;
+}
+
+.sesion-form__field{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: start;
+    min-width: 0;
+    padding: .5rem;
+    gap: .5rem;
+}
+.sesion-form__legend{
+    width: 100%;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+.sesion-form__input, .sesion-form__input--error{
+    width: 100%;
+    height: 3.5rem;
+    padding: 0rem 1.5rem 0rem 0.5rem;
+    color: black;
+    background-color: white;
+    border: 1.5px solid #ffffff;
+    border-radius: 2px 0px 0px 0px;
+    box-shadow: 0px 1px 0.5px 0px #C8C8C8;
+    outline: none;
+    box-sizing: border-box;
+}
+    .sesion-form__input:hover, .sesion-form__input:focus {
+        border: 1.5px solid #eaeaea;
+    }
+    .sesion-form__input--error{
+        border-color: red;
+    }
+
+.sesion-form__btncontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mensaje{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+    .mensaje--hide{
+        display: none;
+    }
+
+.sesion-form__btn{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    color: white;
+    background-color: #B6854B;
+    border: 1px solid #b78242;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    .sesion-form__btn:hover{
+        background-color: #9e6e34;
+    }
+
+
+    @media only screen and (min-width: 670px) {
+        .sesion-form{
+            width: 70%;
+            padding: 2rem;
+        }
+    }
+    
+    @media only screen and (min-width: 992px) {
+        .sesion-form{
+            width: 50%;
+            padding: 4rem;
+
+        } 
+    }
